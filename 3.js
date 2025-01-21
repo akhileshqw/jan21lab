@@ -27,4 +27,4 @@ function delay(message, callback) {
 delay("Hello, world", () => {
     console.log("Message has been printed.");
 });
-console.log("this message is delayed for 2s")
+console.log("this message is delayed for 2s");
