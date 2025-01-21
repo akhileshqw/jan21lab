@@ -1,7 +1,6 @@
-function greet(name,mycallback){
-
-   return  mycallback(name)
-
+function greet(name, mycallback) {
+  return mycallback(name);
 }
-greet("srikar",(name)=>{console.log(`hello to ${name}`)})
-
+greet("srikar", (name) => {
+  console.log(`hello to ${name}`);
+});
